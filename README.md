@@ -1,2 +1,2 @@
-# Food-Ordering-Web-Application
-MIni Project
+# Expense Tracker State Management
+
