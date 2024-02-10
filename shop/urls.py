@@ -16,7 +16,7 @@ urlpatterns = [
     path('orderView/', views.orderView, name="orderView"),
     path("handlerequest/", views.handlerequest, name="HandleRequest"),
     #-----------Razorpay
-    path('success/',views.success,name='success'),
+#     path('success/',views.success,name='success'),
      
     path('reset_password/',
          auth_views.PasswordResetView.as_view(template_name="shop/password_reset.html"),

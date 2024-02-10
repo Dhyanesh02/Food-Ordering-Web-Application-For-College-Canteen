@@ -1,7 +1,7 @@
 from django.shortcuts import render, HttpResponse, redirect
 from django.http import HttpResponseRedirect
 #--------------
-import razorpay
+
 # from django.http import HttpResponse
 from .models import Product, Contact, Orders, OrderUpdate
 from django.contrib.auth.models import User
@@ -232,7 +232,5 @@ def handlerequest(request):
     return render(request, 'shop/paymentstatus.html', {'response': response_dict})
 
 #----------------------------RAZOR PAY
-@csrf_exempt
-def success(request):
-    return render(request,"success.html")
+
 
